@@ -1,4 +1,4 @@
-# Reliable Data Transfer Protocal in Python
+# Reliable Data Transfer Protocol in Python
 
 Implementation of RDT layer based on Python's built-in UDP libarary.
 
