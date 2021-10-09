@@ -10,11 +10,35 @@ Test code is not written by me. My goal was to complete the rdt4.py
 
 ## Implementation Details
 
-| Header |   |   |   | Payload |
-| ------ | - | - | - | ------- |
-| Type | Seq # | Checksum | Payload Length | Payload |
-| 1 Byte | 1 Byte | 2 Byte | 2 Byte | 1000 Byte |
-| ACK=11 Data=12 | 0 or 1 |
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">Header</th>
+            <th>Payload</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Type</td>
+            <td>Seq #</td>
+            <td>Checksum</td>
+            <td>Payload Length</td>
+            <td>Payload</td>
+        </tr>
+        <tr>
+            <td>1 Byte</td>
+            <td>1 Byte</td>
+            <td>2 Byte</td>
+            <td>2 Byte</td>
+            <td>1000 Byte</td>
+        </tr>
+        <tr>
+            <td>ACK=11 Data=12</td>
+            <td>0 or 1</td>
+        </tr>
+    </tbody>
+</table>
+
 
 Stop-and-Wait
 
